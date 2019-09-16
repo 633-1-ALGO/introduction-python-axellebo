@@ -4,3 +4,11 @@
 
 a = 11
 b = 42
+
+print("La valeur de a avant modification : ", a)
+print("La valeur de b avant modification : ", b)
+c = a
+a = b
+b = c
+print("La valeur de a après modification : ", a)
+print("La valeur de b après modification : ", b)
