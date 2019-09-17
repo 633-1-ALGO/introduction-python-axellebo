@@ -13,6 +13,7 @@ for mot in liste_mot:
     else:
         cpt = cpt+0
     texte_def = texte_def+mot+" "
+print(texte)
 print(texte_def)
-print(cpt)
+print("Il y a : ",cpt, "fois le mot exemple")
 
