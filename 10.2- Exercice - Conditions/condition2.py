@@ -8,11 +8,11 @@
 #
 # Résultat attendu : Un message affichant "Année bissextile" ou "Année non bissextile"
 
-annee = 2019
+annee = 2020
 
 if annee % 4 == 0 :
-    if annee % 100 == 0 :
-        if annee % 400 == 0 :
+    if annee % 100 != 0 :
+        if annee % 400 != 0 :
             print("Année bissextile")
         else:
             print("Année non bissextile")
@@ -20,3 +20,4 @@ if annee % 4 == 0 :
         print("Année non bissextile")
 else :
     print("Année non bissextile")
+
